@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height:200vh">
     <button @click="modalOpen = true">Open</button>
     <button @click="modalOpen2 = true">Open2</button>
     <button @click="modalOpen3 = true">Open3</button>
