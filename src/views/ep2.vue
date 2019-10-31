@@ -3,16 +3,16 @@
     <div>设置</div>
     <label for="email">Email: </label>
     <input v-model="email" type="text" id="email" />
-    <toggle-input v-model="receiveNewsletter"></toggle-input>
+    <toggle-input-2 v-model="receiveNewsletter"></toggle-input-2>
     <button @click="submit">更新设置</button>
   </div>
 </template>
 
 <script>
-import ToggleInput from '../components/ToggleInput2.vue';
+import ToggleInput2 from '../components/ToggleInput2.vue';
 
 export default {
-  components: { ToggleInput },
+  components: { ToggleInput2 },
   name: 'ep2',
   data() {
     return {

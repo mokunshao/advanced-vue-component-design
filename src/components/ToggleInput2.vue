@@ -18,7 +18,7 @@ export default {
     prop: 'toggleValue',
     event: 'toggleAction',
   },
-  name: 'toggle-input',
+  name: 'toggle-input-2',
   props: {
     toggleValue: {
       type: Boolean,
