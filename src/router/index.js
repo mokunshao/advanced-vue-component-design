@@ -30,6 +30,11 @@ const routes = [
     name: 'ep4',
     component: () => import('../views/ep4.vue'),
   },
+  {
+    path: '/ep5',
+    name: 'ep5',
+    component: () => import('../views/ep5.vue'),
+  },
 ];
 
 const router = new VueRouter({

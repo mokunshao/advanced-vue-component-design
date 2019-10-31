@@ -6,6 +6,7 @@
       <router-link to="/ep2">2</router-link> |
       <router-link to="/ep3">3</router-link> |
       <router-link to="/ep4">4</router-link> |
+      <router-link to="/ep5">5</router-link> |
     </div>
     <router-view />
   </div>
