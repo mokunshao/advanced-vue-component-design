@@ -1,5 +1,5 @@
 <template>
-  <div style="height:200vh">
+  <div class="wrapper">
     <button @click="modalOpen = true">Open</button>
     <button @click="modalOpen2 = true">Open2</button>
     <button @click="modalOpen3 = true">Open3</button>
@@ -32,3 +32,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.wrapper {
+  margin-top: 50vh;
+  margin-bottom: 200vh;
+}
+</style>
