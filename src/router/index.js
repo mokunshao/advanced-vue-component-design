@@ -20,6 +20,11 @@ const routes = [
     name: 'ep2',
     component: () => import('../views/ep2.vue'),
   },
+  {
+    path: '/ep3',
+    name: 'ep3',
+    component: () => import('../views/ep3.vue'),
+  },
 ];
 
 const router = new VueRouter({
